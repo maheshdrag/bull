@@ -1,0 +1,49 @@
+[
+  {
+    "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-432276e7-bd71/operations/47F9587AB7FFFD64",
+    "operationId": "47F9587AB7FFFD64",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-11-16T17:09:00.9373555Z",
+      "duration": "PT40.5136587S",
+      "trackingId": "f88f9f39-8eae-47ca-a0a8-7c46d8b3d715",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Web/sites/bullHome",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "bullHome"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-432276e7-bd71/operations/4B35F282B7696450",
+    "operationId": "4B35F282B7696450",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-11-16T17:08:20.129513Z",
+      "duration": "PT1M7.2003717S",
+      "trackingId": "e1540d32-008a-40e9-a2af-07676001e559",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Web/serverfarms/ASP-Devengers-b603",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-Devengers-b603"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-432276e7-bd71/operations/08586276828607995639",
+    "operationId": "08586276828607995639",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-11-16T17:09:01.6563872Z",
+      "duration": "PT0.4333463S",
+      "trackingId": "c478ac4f-90a4-4173-a761-0f2428f1452a",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]

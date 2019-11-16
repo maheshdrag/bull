@@ -1,0 +1,50 @@
+{
+  "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Resources/deployments/Microsoft.Maps",
+  "name": "Microsoft.Maps",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.Maps",
+    "primaryResourceId": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourcegroups/Devengers/providers/Microsoft.Maps/accounts/Mahesh"
+  },
+  "properties": {
+    "templateHash": "9889519830988271852",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "Mahesh"
+      },
+      "pricingSpec": {
+        "type": "String",
+        "value": "s1"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2019-11-16T16:34:59.2724238Z",
+    "duration": "PT24.206492S",
+    "correlationId": "742e67b4-d805-4394-9739-c11c325d149a",
+    "providers": [
+      {
+        "namespace": "Microsoft.Maps",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": [
+              "global"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Maps/accounts/Mahesh"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

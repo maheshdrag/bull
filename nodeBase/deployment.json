@@ -1,0 +1,116 @@
+{
+  "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-432276e7-bd71",
+  "name": "Microsoft.Web-WebApp-Portal-432276e7-bd71",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.WebSite",
+    "primaryResourceId": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourcegroups/Devengers/providers/Microsoft.Web/sites/bullHome"
+  },
+  "properties": {
+    "templateHash": "3507869378131688434",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "21f838ef-15e9-4e10-a2a2-1c6d7ea03a90"
+      },
+      "name": {
+        "type": "String",
+        "value": "bullHome"
+      },
+      "location": {
+        "type": "String",
+        "value": "Central US"
+      },
+      "hostingEnvironment": {
+        "type": "String",
+        "value": ""
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-Devengers-b603"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "Devengers"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": true
+      },
+      "sku": {
+        "type": "String",
+        "value": "PremiumV2"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "P1v2"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "3"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "3"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "linuxFxVersion": {
+        "type": "String",
+        "value": "NODE|10.14"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2019-11-16T17:09:01.8684958Z",
+    "duration": "PT1M57.1904299S",
+    "correlationId": "5626a85f-e97c-471a-90b0-8f2cc27d77d1",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "centralus"
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Web/serverfarms/ASP-Devengers-b603",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-Devengers-b603"
+          }
+        ],
+        "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Web/sites/bullHome",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "bullHome"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Web/serverfarms/ASP-Devengers-b603"
+      },
+      {
+        "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Web/sites/bullHome"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

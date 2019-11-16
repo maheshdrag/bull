@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Resources/deployments/Microsoft.Maps/operations/297FA7766280CD47",
+    "operationId": "297FA7766280CD47",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-11-16T16:34:59.1137195Z",
+      "duration": "PT17.6438078S",
+      "trackingId": "a79fdcb9-d951-4649-8ded-dc3a1951bdfc",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Maps/accounts/Mahesh",
+        "resourceType": "Microsoft.Maps/accounts",
+        "resourceName": "Mahesh"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/21f838ef-15e9-4e10-a2a2-1c6d7ea03a90/resourceGroups/Devengers/providers/Microsoft.Resources/deployments/Microsoft.Maps/operations/08586276848104116876",
+    "operationId": "08586276848104116876",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-11-16T16:34:59.2525669Z",
+      "duration": "PT0.0517192S",
+      "trackingId": "a1db4619-95fb-46de-8d7d-f2c1924386ee",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "bull",
+  "version": "1.0.0",
+  "description": "Bull is an emergency systems tracking webApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Emergency",
+    "Police",
+    "Ambulance"
+  ],
+  "author": "Mahesh Raj (maheraj@deloitte.com)",
+  "license": "ISC"
+}
